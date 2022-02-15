@@ -6,7 +6,7 @@ if __name__ == '__main__':
     t_gray = cv.resize(imag, dsize=(50, 50))
     imag_color = cv.cvtColor(imag, 6)
     cv.imshow("imag_color", imag_color)
-    cv.imshow("imag.jpg", imag)
+    cv.imshow("123.jpg", imag)
     print("未修改", imag.shape)
     print("修改", t_gray.shape)
     image_crop = np.array([
@@ -15,6 +15,7 @@ if __name__ == '__main__':
     ], dtype=np.float32)
     image_crop_jpg = cv.warpAffine(imag, image_crop, (183, 275))
     cv.imshow("image_crop_jpg", image_crop_jpg)
+
     while True:
         # 检测键盘输入q（必须是英文的）
         if ord('q') == cv.waitKey(0):
