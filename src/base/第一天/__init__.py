@@ -1,5 +1,4 @@
-import time
-
+# encoding= utf-8
 
 def method01():
     print("ksjfl")
