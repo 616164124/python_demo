@@ -1,6 +1,7 @@
 import numpy as np
 import cv2 as cv
 
+
 if __name__ == '__main__':
     imag = cv.imread("12.jpg")
     t_gray = cv.resize(imag, dsize=(50, 50))
