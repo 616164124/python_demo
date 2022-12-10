@@ -1,5 +1,4 @@
 import cv2 as cv2
-import numpy as np
 
 if __name__ == '__main__':
     cap = cv2.VideoCapture(0)

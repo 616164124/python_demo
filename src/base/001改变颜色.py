@@ -1,7 +1,5 @@
-import colorsys
-
-import numpy as np
 import cv2 as cv
+
 
 if __name__ == '__main__':
 
@@ -10,7 +8,6 @@ if __name__ == '__main__':
     cv.imshow("read_img", imag)
     cv.imwrite("gray.jpg", t_gray)
     cv.imshow("t_gray", t_gray)
-
 
     # 等待
     cv.waitKey(0)
