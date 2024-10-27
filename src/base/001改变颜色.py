@@ -8,6 +8,7 @@ if __name__ == '__main__':
     cv.imwrite("gray.jpg", t_gray)
     cv.imshow("t_gray", t_gray)
 
+
     # 等待
     cv.waitKey(0)
     # 释放内存
